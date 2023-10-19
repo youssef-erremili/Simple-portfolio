@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightseagreen;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 3em;
+    background-image: linear-gradient(to right, #09009f , #ff4646);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header h3 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.main .about,
+.main .projects,
+.main .work,
+.main .education,
+.main .language,
+.main .social,
+.main .contact {
+    width: 80vw;
+    min-height: 16vh;
+    margin: 10vh auto 6vh auto;
+    overflow: hidden;
+    padding: 1rem 3rem 4rem 3rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.main .about h2,
+.main .projects h2,
+.main .work h2,
+.main .education h2,
+.main .language h2,
+.main .social h2,
+.main .contact h2 {
+    text-transform: capitalize;
+    padding: 1.6rem 0;
+}
+
+.main .about .profile {
+    width: 20%;
+}
+
+.main .about .profile img {
+    width: 100%;
+    float: left;
+    border-radius: 10px;
+}
+
+.main .about .textF {
+    width: 80%;
+    padding: 0 20px 20px 20px;
+    float: right;
+    font-size: 18px;
+    color: #363636;
+}
+
+.main .projects .gallery,
+.main .education .edu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .projects .gallery h3{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 14px 0 0 0;
+}
+.main .projects .gallery section {
+    width: 30%;
+
+}
+
+.main .projects .gallery section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main .work {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main .work span {
+    margin: 25px 0;
+    display: block;
+}
+
+.main .work span h3 {
+    margin: 6px 0;
+    text-transform: uppercase;
+}
+
+.main .education .edu {
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.main .education .edu p:last-child {
+    margin-top: 15px;
+}
+
+.main .language .lang,
+.main .network {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3em;
+}
+
+.main .language .lang span {
+    font-weight: 500;
+    font-size: 18.8px;
+    text-transform: capitalize;
+}
+
+.main .language .lang span p {
+    display: inline-block;
+    color: #0000009d;
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: lowercase;
+}
+
+.main .network span {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.main .network span i {
+    margin-right: 4px;
+}
+
+.main .contact .form input,
+.main .contact .form textarea {
+    display: inline-block;
+    min-width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #d8d8d842;
+    font-family: 'Roboto Mono', monospace;
+    resize: none;
+}
+#submit{
+    cursor: pointer;
+    min-width: 30vh;
+    background-color: red;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+}
+::placeholder {
+    text-transform: capitalize;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 0.637);
+    letter-spacing: 1.3px;
+}
